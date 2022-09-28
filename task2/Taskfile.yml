@@ -5,4 +5,5 @@ tasks:
     desc: "Description up Task2"
     summary: "Summary up Task2"
     cmds:
+    - pwd
     - echo "task2 up!"

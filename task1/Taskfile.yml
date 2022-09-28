@@ -1,8 +1,15 @@
 version: '3'
 
+includes:
+  task2:
+    taskfile: ../task2/Taskfile.yml
+    dir: ../task2
+
+
 tasks:
   up:
     desc: "Description up Task1"
     summary: "Summary up Task1"
     cmds:
+    - pwd
     - echo "task1 up!"
