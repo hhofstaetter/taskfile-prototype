@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  up:
+    desc: "Description up Task2"
+    summary: "Summary up Task2"
+    cmds:
+    - echo "task2 up!"
