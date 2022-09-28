@@ -13,3 +13,10 @@ tasks:
     cmds:
     - pwd
     - echo "task1 up!"
+
+  all:
+    desc: "Run up in Task1 and Task2"
+    summary: "Summary of all"
+    cmds:
+    - task: up
+    - task: task2:up
