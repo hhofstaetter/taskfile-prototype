@@ -20,3 +20,8 @@ tasks:
     cmds:
     - task: up
     - task: task2:up
+
+  sh:
+    desc: "Start a shell somewhere?"
+    cmds:
+      - echo {{.CLI_ARGS}}
